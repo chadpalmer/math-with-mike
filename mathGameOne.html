@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+	<title>Practice Some Math</title>
+	<link rel="stylesheet" type="text/css" href="mathGameOne.css"/>
+	<script type="text/javascript" src="mathGameOne.js"></script>
+</head>
+
+<body background="Space-Art-Wallpaper-1920x1080_007.jpg">
+
+<h1 class="header" >Math Practice</h1>
+
+<section>
+	<button id="buttonAdd" type="button" class="buttons" onclick="doAdd();">Practice Addition</button>
+	<button id="buttonSub" type="button" class="buttons" onclick="doSub();">Practice Subtraction</button>
+	<button id="buttonMult" type="button" class="buttons" onclick="doMult();">Practice Multiplication</button>
+	<button id="buttonDiv" type="button" class="buttons" onclick="doDiv();">Practice Division</button>
+</section>
+
+<br/>
+
+<table>
+	<tr>
+		<td class="problems" id="probSet" style= "display: none;"></td>
+		<td><textarea id="answerSet" name="answerSet" class="answers" style="display: none;"></textarea></td>
+		<td><button id="buttonEnter" type="button" class="buttons" onclick="checkAnswer();" style="display: none;">Enter</button></td>
+		<td><button id="quit" class="buttons" onclick= "onQuit();" style="display: none;">Quit</button></td>
+	</tr>
+</table>
+
+</body>
+
+</html>
