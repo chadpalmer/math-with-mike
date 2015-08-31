@@ -28,7 +28,7 @@ function checkAnswer() {
 		checkSub();
 	} else if (lastFunction == "doMult") {
 		checkMult();
-	} else {
+	} else if (lastFunction == "doDiv") {
 		checkDiv();
 	}
 }
