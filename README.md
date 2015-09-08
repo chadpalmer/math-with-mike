@@ -1,7 +1,13 @@
-# math-with-mike
+## math-with-mike
 Mike's math practice app
 
-This is a Math Practice program.
+## Installation
 
-To run it go to the math-with-mike folder in wherever you Cloned it or Downloaded it and look for a .html File, open that 
-and have fun learning math!
+# Obtaining source
+From zip: download the zip from Github, extract to your folder of choice.
+
+From git: <code> https://github.com/chadpalmer/math-with-mike.git </code>
+
+# Running
+Open the folder that has been downloaded, and use your browser of choice to open mathGameOne.html. 
+On most Windows operating systems and GNU/Linux distrobutions, simply double clicking the file will open it in the default browser.
