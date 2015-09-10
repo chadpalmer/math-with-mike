@@ -1,10 +1,6 @@
 //Widget controls
 
-<<<<<<< HEAD
 var lastFunction, getAnswer, sum, difference, product, quotient, numOne, numTwo, rightAud, wrongAud;
-=======
-var lastFunction, getAnswer, sum, difference, product, quotient, numOne, numTwo;
->>>>>>> origin/master
 
 function getFocus() {
 	document.getElementById("answerSet").focus();
@@ -36,7 +32,6 @@ function checkAnswer() {
 		checkDiv();
 	}
 }
-<<<<<<< HEAD
 
 function playRight() {
 	rightAud = document.getElementById("rightAud");
@@ -47,9 +42,6 @@ function playWrong() {
 	wrongAud = document.getElementById("wrongAud");
 	wrongAud.play();
 }
-
-=======
->>>>>>> origin/master
 
 //Addition function
 function doAdd() {
@@ -165,7 +157,7 @@ function doDiv() {
 
 function checkDiv() {
 	getAnswer = document.getElementById("answerSet").value;
-	
+
 	if (quotient == getAnswer) {
 		playRight();
 		alert("That is correct!");
@@ -177,11 +169,6 @@ function checkDiv() {
 		document.getElementById("answerSet").value = '';
 		getFocus();
 	}
-	
-	showQuit();
-<<<<<<< HEAD
-}
-=======
-}
 
->>>>>>> origin/master
+	showQuit();
+}
